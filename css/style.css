@@ -23,7 +23,7 @@ html, body {
 .hero-image {
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 327/200;
+  aspect-ratio: 327 / 200;
   border-radius: 1rem 1rem 0 0;
   vertical-align: top;
 }
@@ -51,7 +51,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 3rem;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 0.9375rem 0 1rem 0;
   border-radius: 0 0 1rem 1rem;
   position: relative;
@@ -68,7 +68,7 @@ html, body {
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 
 .profile-bio {
@@ -89,7 +89,7 @@ html, body {
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   border: none;
   z-index: 2;
   margin-left: 2.5rem;
@@ -102,7 +102,8 @@ html, body {
   align-items: center;
   justify-content: flex-start;
   height: auto;
-  width: 100%; /*21.125rem*/
+  width: 100%;
+  /*21.125rem*/
   border-radius: 0 0 1rem 1rem;
   background-color: #48556A;
   padding: 1.25rem 2rem;
@@ -158,7 +159,7 @@ html, body {
     max-height: 100%;
   }
   .hero-image {
-    aspect-ratio: 58/62.5;
+    aspect-ratio: 58 / 62.5;
     border-radius: 1rem 0 0 1rem;
   }
   .furniture-description {
@@ -170,7 +171,6 @@ html, body {
     letter-spacing: 0.016rem;
   }
   .profile-wrapper {
-    justify-content: center;
     padding: 0 0 2rem 0;
   }
   .share-content {
@@ -190,12 +190,12 @@ html, body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 0.9rem solid transparent;
-    border-right: 0.9rem solid transparent;
+    border-left: .9rem solid transparent;
+    border-right: .9rem solid transparent;
     border-top: 0.9rem solid #48556A;
     right: 0;
     top: -45%;
     transform: translateX(-3.75rem);
     filter: drop-shadow(0 0.2rem 0.3rem #48556A);
   }
-}/*# sourceMappingURL=style.css.map */
+}
